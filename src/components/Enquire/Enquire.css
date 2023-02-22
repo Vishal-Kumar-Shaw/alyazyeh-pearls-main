@@ -1,12 +1,17 @@
-.img{
-    width: 100vw;
-    height: 400px;
- }
+.text-white{
+    color: white;
+}
 .info{
-    font-family: "lato";
+    align-self:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
-    font-size: large;
+    font-size: x-large;
     color: azure;
+ }
+ .info1{
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
  }
 .btn{
   
