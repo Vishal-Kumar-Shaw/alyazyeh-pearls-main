@@ -1,11 +1,14 @@
-
- .info{
+.img{
+    width: 100vw;
+    height: 400px;
+ }
+.info{
     font-family: "lato";
     font-style: normal;
     font-size: large;
     color: azure;
  }
- .btn{
+.btn{
   
     color: black;
  }

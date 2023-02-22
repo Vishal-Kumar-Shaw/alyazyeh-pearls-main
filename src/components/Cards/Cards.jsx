@@ -9,11 +9,19 @@ import {
   MDBCardGroup,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import "./Cards.css"
+import "./Cards.css";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import {useEffect} from 'react';
 export default function Cards() {
-  return (
-    <div className='card'><MDBCardGroup>
-      <MDBCard>
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
+   return (
+    <div className='card' ><MDBCardGroup>
+      <MDBCard data-aos="zoom-in">
         <div className='img'><MDBCardImage style={{height:"100%", width:"100%"}} src='/Images/d2.jpg' alt='...' position='top' /></div>
         <MDBCardBody>
           <MDBCardTitle>DESIGN</MDBCardTitle>
@@ -24,7 +32,7 @@ export default function Cards() {
         </MDBCardBody>
        </MDBCard>
 
-      <MDBCard >
+      <MDBCard data-aos="fade-up">
       <div className='img'><MDBCardImage  style={{height:"100%", width:"100%"}} src='/Images/d3.jpg' alt='...' position='top' /></div>
         <MDBCardBody>
           <MDBCardTitle>CUTTING</MDBCardTitle>
@@ -35,7 +43,7 @@ export default function Cards() {
         </MDBCardBody>
      </MDBCard>
 
-      <MDBCard>
+      <MDBCard data-aos="zoom-in">
       <div className='img'> <MDBCardImage style={{height:"100%", width:"100%"}} src='/Images/d4.jpg' alt='...' position='top' /></div>
         <MDBCardBody>
           <MDBCardTitle>TRADING</MDBCardTitle>

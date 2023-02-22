@@ -3,16 +3,31 @@ import {
   MDBCard,
   MDBCardTitle,
   MDBCardText,
-  MDBCardBody,
   MDBCardImage,
   MDBRow,
+  MDBCardHeader,
+  MDBCardBody,
+  MDBTypography,
   MDBCol
 } from 'mdb-react-ui-kit';
 
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import {useEffect} from 'react';
+
+
 export default function A1() {
-  return (
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
+       return (
     <><div className='c1'>
-          <MDBCard style={{ maxWidth: '1500px' }} >
+        <MDBCardText>
+        Classic white diamonds, epitomize eternal love and magnificent brilliance that is simply remarkable, therefore, the demand for it is ever-augmenting amongst the consumers. Our diverse network all around the world is committed towards offering quality products and facilitating our trusted jewelry makers & manufacturers, traders, investors, and individual clients.
+        </MDBCardText>
+          <MDBCard data-aos="zoom-in" style={{ maxWidth: '1500px' }} >
               <MDBRow className='g-0'>
 
                   <MDBCol md='4'>
@@ -40,7 +55,7 @@ export default function A1() {
       </br>
 
       <div className='c1'>
-              <MDBCard style={{ maxWidth: '1500px' }}>
+              <MDBCard data-aos="zoom-out"style={{ maxWidth: '1500px' }}>
                   <MDBRow className='g-0'>
 
                       <MDBCol md='4'>
