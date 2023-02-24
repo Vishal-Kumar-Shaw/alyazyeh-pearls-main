@@ -1,0 +1,46 @@
+.cards{
+    display:flex;
+    margin: 10px 60px;
+}
+.card1{
+    margin:10px;
+    border-radius: 0;
+}
+.head{
+    margin:25px 80px;
+    /* padding:10px 29px; */
+}
+.para{
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: white;
+    color:black;
+    font-size: 0.8rem;
+    font-weight: 400;
+    border-color: black;
+    margin:15px auto;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.parC{
+    text-align:justify;
+}
+.images{
+    width:100%;
+    height:100%;
+}
+.title{
+    font-size:1.55rem;
+    font-weight: 600;
+
+}
+@media only screen and (max-width:900px){
+    .cards{
+          display:block;
+          width: 100%;
+          margin:0;
+    }
+}

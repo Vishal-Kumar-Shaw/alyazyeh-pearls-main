@@ -1,9 +1,9 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './Services.css'
+import './process.css'
 
-const Cards=(props)=> {
+const CardP=(props)=> {
   return (
       <Card className='card1'>
             <Card.Img variant="top" src={props.img} className='images'/>
@@ -18,4 +18,4 @@ const Cards=(props)=> {
 }
 
 
-export default Cards; 
+export default CardP; 
