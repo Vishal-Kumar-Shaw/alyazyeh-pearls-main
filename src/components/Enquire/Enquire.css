@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .text-white{
     color: white;
 }
 .info{
     align-self:center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia;
     font-style: normal;
     font-size: x-large;
     color: azure;
  }
  .info1{
     align-self: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-family: 'lato';
+    font-size:x-large;
  }
 .btn{
   

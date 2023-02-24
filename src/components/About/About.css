@@ -1,10 +1,14 @@
-.a11{
+.A1{
+    height:12vw;
+    background-color:black;
+    color:white;
+}.a11{
     align-self:flex-end;
     color: white;
 }
 .a12{
     color: white;
-    align-self:flex-end
+    align-self:'flex-right';
 }
 .a2{
     background-color: black;
@@ -23,6 +27,6 @@
 
 .T1{
     font-size: larger;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia;
     color: gold;
 }

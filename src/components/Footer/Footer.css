@@ -1,8 +1,4 @@
-.name{
 
-
-    background-color: darkred;
-}
 .media{
     color: black;
 }
@@ -11,4 +7,12 @@
 }
 .text-center text-md-start mt-5{
     background-color: black;
+}
+.mx-auto mb-4{
+    font-size: x-large;
+    color: white;
+}
+.text-center text-md-start mt-5{
+    font-size: x-large;
+    color: white;
 }

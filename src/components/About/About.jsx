@@ -8,12 +8,15 @@ import {
   MDBCardHeader,
   MDBCardBody,
   MDBTypography,
+  MDBBtn,
   MDBCol
 } from 'mdb-react-ui-kit';
 import './About.css'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import {useEffect} from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 export default function A1() {
@@ -24,9 +27,21 @@ export default function A1() {
       }, []);
        return (
     <><div>
+        <MDBCard alignment='center' className="A1">
+      <MDBCardHeader>WELCOME</MDBCardHeader>
+      <MDBCardBody>
         <MDBCardText>
-        Classic white diamonds, epitomize eternal love and magnificent brilliance that is simply remarkable, therefore, the demand for it is ever-augmenting amongst the consumers. Our diverse network all around the world is committed towards offering quality products and facilitating our trusted jewelry makers & manufacturers, traders, investors, and individual clients.
+        Classic white diamonds, epitomize eternal love and magnificent brilliance that is simply remarkable, therefore, the demand for it is ever-augmenting amongst the consumers. <br></br>
+        Our diverse network all around the world is committed towards offering quality products and facilitating our trusted jewelry makers & manufacturers, traders, investors, and individual clients.
         </MDBCardText>
+        <MDBBtn href='#'>Explore</MDBBtn>
+      </MDBCardBody>
+     
+    </MDBCard>
+    <br>
+      </br>
+      <br>
+      </br>
           <MDBCard className='a11' data-aos="zoom-in" style={{ maxWidth: '1450px' }} >
               <MDBRow className='g-0'>
 
@@ -75,6 +90,24 @@ export default function A1() {
                       </MDBRow>
               </MDBCard>
           </div></>
+
   );
 }
 
+export  function card2() {
+    return (
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src="./Images/d9.jpg" />
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+    );
+  }
+  
+   
