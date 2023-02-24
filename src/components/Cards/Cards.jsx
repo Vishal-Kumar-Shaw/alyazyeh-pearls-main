@@ -13,7 +13,7 @@ import "./Cards.css";
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import {useEffect} from 'react';
-import Acard from "../About/Acard.jsx";
+
 export default function Cards() {
   useEffect(() => {
     AOS.init({
@@ -21,7 +21,7 @@ export default function Cards() {
     });
   }, []);
    return (
-    <><Acard/>
+    
     <div ><MDBCardGroup className='card'>
       <MDBCard className='c1'data-aos="zoom-in">
         <div className='img'><MDBCardImage style={{height:"100%", width:"100%"}} class='img-fluid'src='/Images/d2.jpg' alt='...' position='top' /></div>
@@ -56,6 +56,6 @@ export default function Cards() {
         </MDBCardBody>
         </MDBCard>
     </MDBCardGroup></div>
-    </>
+   
   );
 }

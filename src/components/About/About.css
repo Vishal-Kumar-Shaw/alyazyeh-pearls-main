@@ -1,8 +1,22 @@
 .A1{
-    height:12vw;
-    background-color:black;
-    color:white;
-}.a11{
+    height:15vw;
+    background-color:white;
+    color:black;
+    font-family: 
+    
+}
+.A2{
+    font-family:Algerian;
+    color:Goldenrod;
+    font-size:3vw;
+
+}
+.A3{
+    font-family:arial;
+    font-size:1.2vw
+
+}
+.a11{
     align-self:flex-end;
     color: white;
 }
@@ -26,7 +40,7 @@
 }
 
 .T1{
-    font-size: larger;
-    font-family:Georgia;
-    color: gold;
+    font-size: 1.5vw;
+    font-family:Algerian;
+    color: Goldenrod;
 }

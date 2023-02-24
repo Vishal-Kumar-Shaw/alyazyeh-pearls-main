@@ -35,8 +35,8 @@ export default function card() {
       <MDBCard className='w-50' data-aos="zoom-out" style={{ maxWidth: '1800px' }}>
       <div className='img' style={{height:"20vw", width:"20vw"}}><MDBCardImage style={{height:"100%", width:"100%"}} overlay src='./Images/d9.jpg' alt='...'/></div>
         <MDBCardBody>
-          <MDBCardTitle>DIAMOND JEWELRY</MDBCardTitle>
-          <MDBCardText>WE CREATE THE POWERFUL COMBINATION OF EXPERTS & TECHNOLOGY TO ACHIEVE EXCELLENCE</MDBCardText>
+          <MDBCardTitle className='T'>DIAMOND JEWELRY</MDBCardTitle>
+          <MDBCardText className='in'>WE CREATE THE POWERFUL COMBINATION OF EXPERTS & TECHNOLOGY TO ACHIEVE EXCELLENCE</MDBCardText>
          
           <MDBBtn href='#'>Explore</MDBBtn>
         </MDBCardBody>

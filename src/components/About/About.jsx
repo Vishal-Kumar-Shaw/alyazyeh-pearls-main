@@ -28,9 +28,9 @@ export default function A1() {
        return (
     <><div>
         <MDBCard alignment='center' className="A1">
-      <MDBCardHeader>WELCOME</MDBCardHeader>
+      <MDBCardHeader className="A2">WELCOME</MDBCardHeader>
       <MDBCardBody>
-        <MDBCardText>
+        <MDBCardText className="A3">
         Classic white diamonds, epitomize eternal love and magnificent brilliance that is simply remarkable, therefore, the demand for it is ever-augmenting amongst the consumers. <br></br>
         Our diverse network all around the world is committed towards offering quality products and facilitating our trusted jewelry makers & manufacturers, traders, investors, and individual clients.
         </MDBCardText>
@@ -54,7 +54,7 @@ export default function A1() {
                           <br></br>
                               <MDBCardTitle className='T1'>POLISHED & CERTIFIED</MDBCardTitle>
                               <br></br>
-                              <MDBCardText>
+                              <MDBCardText className='info1'>
                                   Classic white diamonds, epitomize eternal love and magnificent brilliance that is simply remarkable, therefore, the demand for it is ever-augmenting amongst the consumers. Our diverse network all around the world is committed towards offering quality products and facilitating our trusted jewelry makers & manufacturers, traders, investors, and individual clients.
                               </MDBCardText>
                           </MDBCardBody>
@@ -78,7 +78,7 @@ export default function A1() {
                               <MDBCardBody className='a2'>
                               <br></br>
                                   <MDBCardTitle className='T1'>FANCY COLOR DIAMONDS</MDBCardTitle>
-                                  <MDBCardText>
+                                  <MDBCardText className='info1'>
                                   <br></br>
                                   Fancy color diamonds are undoubtedly rare and unique. Our fancy diamond collection encompasses the rarest of color combinations that makes them special. If you prefer making a unique style statement then fancy diamonds are an ideal choice with a wide range of colors, combinations and hues to choose from. Moreover, we specialize in the fashionable cuts of fancy diamonds.
                                   </MDBCardText>
@@ -94,20 +94,6 @@ export default function A1() {
   );
 }
 
-export  function card2() {
-    return (
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="./Images/d9.jpg" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-    );
-  }
+
   
    

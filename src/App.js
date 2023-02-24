@@ -7,17 +7,34 @@ import About from './components/About/About.jsx';
 import Ainfo from './components/About/Ainfo.jsx';
 import Enquire2 from './components/Enquire/Enquire2.jsx';
 // import about from './components/Gallery/Gallery.jsx';
-// import about from './components/Jewellery/Jewellery.jsx';
+import Jewellery from './components/Jewellery/Jewellery.jsx';
 // import about from './components/';
 import Acard from './components/About/Acard.jsx';
 function App() {
   return (
     <div className="App">
       Alyazyeh Pearls
+      <Jewellery/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Ainfo/>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Acard/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <br>
       </br>
       <About/>

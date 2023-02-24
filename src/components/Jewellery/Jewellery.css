@@ -1,0 +1,53 @@
+.h-100{
+    background-color:white;
+    color:black;
+    font-family: Algerian;
+    font-size:larger;
+    height:80vw;
+    width:30vw;
+}
+.T{
+    color: Goldenrod;
+    font-size:1.8vw;
+}
+.in{
+    font-size:1vw;
+    font-family:arial;
+}
+.J0{
+    background-color:white;
+    font-size:2vw;
+    height:25vw;
+    width:30vw;
+    display:center;
+
+}
+
+.J1{
+    font-family:algerian;
+    color:black;
+    font-size:1.3vw;
+    height:15vw;
+    width:10;
+
+}
+.J2{
+    color:Goldenrod;
+    font-family:algerian;
+    font-size:2vw;
+
+}
+.J3{
+
+}
+.JI1{
+    display:flex-start;
+    height:25vw;
+    width:35vw;
+    align-self:flex-start;
+}
+.JI2{
+    display:flex-end;
+    height:25vw;
+    width:35vw;
+}

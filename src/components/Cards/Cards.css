@@ -4,14 +4,16 @@
     
 }
 .c2{
-    background-color: black;
+    background-color: snow;
 }
 .c3{
-    color: gold;
+    color: Goldenrod;
+    font-family:Algerian;
+    font-size:1.8vw;
 }
 .c4{
-    font-size: large;
-    color: white;
+    font-size: 1vw;
+    color: black;
 }
 .img{
     height: auto;
