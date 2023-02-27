@@ -11,6 +11,7 @@ import {
 export default function card() {
   return (
     <>
+    <center>
       <MDBCard className='w-75'>
         <MDBCardBody>
           <MDBCardTitle>EXCELLENCE IN THE DIAMOND VALUE CHAIN</MDBCardTitle>
@@ -18,29 +19,32 @@ export default function card() {
           <MDBBtn href='#'>Explore</MDBBtn>
         </MDBCardBody>
       </MDBCard>
+      </center>
       <div>
         {/* 👇️ colored horizontal line */}
         <hr
           style={{
-            background: 'white',
+            background: 'golden',
             color: 'white',
             borderColor: 'white',
-            height: '5px',
+            height: '50px',
           }}
         />
         </div>
 
       <br />
-
+      <center>
       <MDBCard className='w-50' data-aos="zoom-out" style={{ maxWidth: '1800px' }}>
-      <div className='img' style={{height:"20vw", width:"20vw"}}><MDBCardImage style={{height:"100%", width:"100%"}} overlay src='./Images/d9.jpg' alt='...'/></div>
-        <MDBCardBody>
+      <center><div className='img' style={{height:"20vw", width:"20vw"}}><MDBCardImage style={{height:"100%", width:"100%"}} overlay src='./Images/d9.jpg' alt='...'/></div></center>
+      
+      <MDBCardBody>
           <MDBCardTitle className='T'>DIAMOND JEWELRY</MDBCardTitle>
           <MDBCardText className='in'>WE CREATE THE POWERFUL COMBINATION OF EXPERTS & TECHNOLOGY TO ACHIEVE EXCELLENCE</MDBCardText>
          
           <MDBBtn href='#'>Explore</MDBBtn>
         </MDBCardBody>
       </MDBCard>
+      </center>
     </>
   );
 }
