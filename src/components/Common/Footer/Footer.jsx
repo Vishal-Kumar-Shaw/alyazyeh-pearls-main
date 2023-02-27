@@ -36,9 +36,16 @@ export default function App() {
       <section className='name'>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-          <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'><div className='img'>  
-          <img style={{height:"100%", width:"100%"}} src={logo} alt='...' position='top' /></div>
+          <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+          <div className='img'>  
+            <img style={{height:"100%", width:"100%"}} src={logo} alt='...' position='top' />
+          </div>
+          <div className='map'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.0033068068474!2d55.19787915824905!3d25.118536659966193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bbec2190051%3A0x96c2220e8d2b17c0!2sPaspaley%20Pearls!5e0!3m2!1sen!2sin!4v1677483428155!5m2!1sen!2sin" width="150" height="150" style={{border:"0"}}loading="lazy" title="location"></iframe>
+          </div>
+          
           </MDBCol> 
+          
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <div>
                

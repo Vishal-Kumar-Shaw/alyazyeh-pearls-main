@@ -1,8 +1,11 @@
 import React from 'react'
+import Corousal from '../Corousal/Corousal'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Corousal/>
+    </>
   )
 }
 
