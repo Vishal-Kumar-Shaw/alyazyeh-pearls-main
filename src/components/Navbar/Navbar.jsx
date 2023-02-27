@@ -14,10 +14,11 @@ const Navbar = () => {
             <div className='menu'>
                 <ul className='menus'>
                     <li className='links'><a href="/"> Home </a></li>
-                    <li className='links'><a href="/"> Our Services </a></li>
-                    <li className='links'><a href="/"> Jewellery </a></li>
-                    <li className='links'><a href="/"> Gallery </a></li>
-                    <li className='links'><a href="/"> Contact Us </a></li>
+                    <li className='links'><a href="/about"> About Us </a></li>
+                    <li className='links'><a href="/services"> Our Services </a></li>
+                    <li className='links'><a href="/jewellery"> Jewellery </a></li>
+                    <li className='links'><a href="/gallery"> Gallery </a></li>
+                    <li className='links'><a href="/contact"> Contact Us </a></li>
                 </ul>
             </div>
         
