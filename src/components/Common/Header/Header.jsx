@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Corousal from '../Corousal/Corousal'
+import Navbar from '../../Navbar/Navbar'
+import Corousal from '../../Corousal/Corousal'
 
 const Header = () => {
   return (
