@@ -1,0 +1,35 @@
+h1{
+      text-align: center;
+      margin: 20px auto;
+      max-width: 1024px;
+      position: relative;
+      color: white;
+  }
+  h1:before {
+      background-color: #fff;
+      display: block;
+      width: 650px;
+      height: 2px;
+      content: "";
+      position: absolute;
+      left:-380px;
+      top: 50%;
+      z-index: -1;
+  }
+  h1:after{
+      background-color: #fff;
+      display: block;
+      width: 650px;
+      height: 2px;
+      content: "";
+      position: absolute;
+      right:-380px;
+      top: 50%;
+      z-index: -1;
+  }
+  .about-card-text{
+    
+  }
+  .about-card-heading{
+    margin-top: 0;
+  }

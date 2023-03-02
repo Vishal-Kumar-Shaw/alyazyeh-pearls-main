@@ -1,0 +1,15 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third-main-div{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    /* border: 2px solid white; */
+    margin-inline: 100px;
+}
+.second-div{
+    display: flex;
+}

@@ -1,0 +1,22 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-home-image-container{
+    display: flex;
+    height: 350px;
+    /* border: 2px solid white; */
+    margin-inline: 100px;
+    margin-top: 30px;
+}
+.child-img{
+    -webkit-box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
+    -moz-box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
+    box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
+}
+.bg-home-image-container img{
+    
+    width: 33.33%;
+    margin: 3px;
+}

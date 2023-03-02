@@ -1,0 +1,121 @@
+h1.headingJ{
+      color:rgb(250, 247, 247);
+      margin-top:10vh;
+      font-size: 2rem;
+}
+.paraJ{
+      color:white;
+      font-size: 1.3rem;
+      margin:60px;
+      text-align: center;
+}
+.sec1{
+      display: flex;
+      position: relative;
+      border: none;
+      text-align: left;
+      margin:60px auto;
+}
+
+.imageDiv1{
+      background-color: gray;
+      margin:40px;
+}
+.imgJ1{
+      width:37vw;
+      margin:5vh 15vw 5vh 3vw;
+      border-radius: 10px;
+}
+.cardBodyJ{
+      position: absolute;
+      top:15vh;
+      left:45vw;
+      right:2vw;
+      color:white;
+      background-color: inherit ;
+      border: none ;
+}
+.sec2{
+      display: flex;
+      flex-direction: row-reverse;
+      position: relative;
+      border: none;
+      text-align: left;
+      margin:60px 50px;
+}
+.imageDiv2{
+      background-color: gray;
+      margin:40px;
+}
+.imgJ2{
+      width:37vw;
+      margin:5vh 3vw 5vh 15vw;
+      border-radius: 10px;
+}
+.cardBody2{
+      position: absolute;
+      color:white;
+      top:15vh;
+      right:45vw;
+      left:2vw;
+      background-color: inherit;
+      border: none;
+}
+.titleJ{
+      margin:20px auto;
+      font-size: 1.8rem;
+}
+.lineJ{
+      margin:10px 35vw 30px 0;
+      border:3px solid rgb(255, 255, 255);
+      border-radius: 5px;
+}
+.cardParaJ{
+      font-size: 1.2rem;
+}
+/* @media only screen and (max-width:1000px) {
+      .sec1,.sec2{
+            display: block;
+            border: none;
+            text-align: left;
+            background-color: #f3f7f4;
+            margin:60px auto;
+      }
+      
+      .imgJ1{
+            width:100%;
+            height:70vh;
+            margin:5vh 0 35vh 0;
+            border-radius: 10px;
+      }
+      .cardBodyJ{
+            top:75vh;
+            left:0;
+            padding-left:25px;
+            padding-bottom: 5vh;
+            
+      }
+      .imgJ2{
+            position:relative;
+            width:100%;
+            top:45vh;
+            height:100%;
+            margin:5vh 0;
+            border-radius: 10px;
+      }
+      .imageDiv2{
+            background-color: #f3f7f4;
+      }
+      .cardBody2{
+            top:5vh;
+            right:0;
+            padding-left:25px;
+            padding-bottom: 5vh;
+      }
+      
+      .lineJ{
+            margin:10px 65vw 30px 0;
+            border:3px solid black;
+            border-radius: 5px;
+      }
+} */

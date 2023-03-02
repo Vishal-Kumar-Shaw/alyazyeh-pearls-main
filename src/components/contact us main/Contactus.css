@@ -1,0 +1,35 @@
+.logo{
+      height: 2vw;
+      width: 2vw;
+      
+  }
+  .c3{
+      font-size: larger;
+      color: black;
+      background-color: white;
+      height: 13vw;
+      width: 25vw;
+      margin-left: 50px;
+  }
+  .ct{
+      font-family: Algerian;
+      font-size: x-large;
+      color:Goldenrod;
+        
+  }
+  div.form{
+    border: 2px solid white;
+    margin:5vh 25vw;
+  }
+  #form{
+    margin:5vh auto;
+  }
+  .text-center{
+      color: white;
+      background-color: black;
+  }
+  
+element.style {
+    width: 100%;
+    max-width: 550px !important;
+}

@@ -11,7 +11,7 @@ const CardP=(props)=> {
             <Card.Title className='title'>{props.name}</Card.Title>
             <Card.Text className='parC'>{props.para}
             </Card.Text>
-            <Button variant="primary" className='btn'>FIND OUT MORE</Button>
+            <Button variant="primary" className='btnP'>FIND OUT MORE</Button>
             </Card.Body>
       </Card>
   );

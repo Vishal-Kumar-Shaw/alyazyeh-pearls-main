@@ -1,8 +1,12 @@
 import React from 'react'
-
+import './About.css'
+import Service from './service'
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <h1><span>About Us</span></h1>
+      <Service/>
+    </>
   )
 }
 

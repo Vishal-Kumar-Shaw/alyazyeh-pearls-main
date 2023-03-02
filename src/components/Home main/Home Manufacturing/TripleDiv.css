@@ -1,0 +1,34 @@
+*, ::after, ::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 15px;
+}
+.home-triple-bg{
+    height: 350px;
+    border: 2px solid white;
+    margin-inline: 100px;
+    margin-block: 20px;
+    display: flex;
+    margin-block: 30px;
+    -webkit-box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
+    -moz-box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
+    box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
+}
+.child-triple-div{
+    width:33.33%;
+    height: 100%;
+
+}
+img{
+    width:100%;
+    height: 100%;
+}
