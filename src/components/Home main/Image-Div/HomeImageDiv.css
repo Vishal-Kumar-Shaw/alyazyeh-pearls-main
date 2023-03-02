@@ -16,7 +16,11 @@
     box-shadow: 5px 6px 13px -1px rgba(250,250,250,1);
 }
 .bg-home-image-container img{
-    
     width: 33.33%;
     margin: 3px;
+    transition: 1s  ease-in-out;
+
+}
+.bg-home-image-container img:hover{
+    transform: scale(0.9);
 }

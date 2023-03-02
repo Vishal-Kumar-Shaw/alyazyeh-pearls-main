@@ -1,11 +1,11 @@
-h1{
+.about-page-title{
       text-align: center;
       margin: 20px auto;
       max-width: 1024px;
       position: relative;
       color: white;
   }
-  h1:before {
+.about-page-title:before {
       background-color: #fff;
       display: block;
       width: 650px;
@@ -16,7 +16,7 @@ h1{
       top: 50%;
       z-index: -1;
   }
-  h1:after{
+.about-page-title:after{
       background-color: #fff;
       display: block;
       width: 650px;

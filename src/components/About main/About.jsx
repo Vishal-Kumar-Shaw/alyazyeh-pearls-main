@@ -7,7 +7,7 @@ import Acard from './Acard'
 const About = () => {
   return (
     <>
-      <h1><span>About Us</span></h1>
+      <h1 className='about-page-title'><span>About Us</span></h1>
       {/* <Acard/> */}
       <Ainfo/>
       <Service/>

@@ -1,7 +1,7 @@
 import React from 'react';
-import './Title.css';
+import './TitleServices.css';
 
-const Title = (props) => {
+const TitleServices = (props) => {
   return (
     <div className='title-main-home'>
         <h1 className='homepage-main-heading'><span>{props.title}</span></h1>
@@ -9,4 +9,4 @@ const Title = (props) => {
   )
 }
 
-export default Title
+export default TitleServices;
