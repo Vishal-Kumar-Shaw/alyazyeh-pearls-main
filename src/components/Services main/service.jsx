@@ -17,8 +17,6 @@ const Service = () => {
       <ServiceContent heading="CUTTING DIAMONDS" content="We export our diamond to around 50 countries including USA, Europe, South Africa, Gulf and Middle-Ease. Our partners and customers are present acroos the globe." image={img2} />
       <hr/>
       <ServiceContent heading="DIAMOND-DESIGN" content="We export our diamond to around 50 countries including USA, Europe, South Africa, Gulf and Middle-Ease. Our partners and customers are present acroos the globe." image={img3} />
-      
-        
     </div>
   )
 }

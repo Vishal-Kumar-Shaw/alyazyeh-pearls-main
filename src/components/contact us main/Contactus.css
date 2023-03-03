@@ -1,35 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
 .logo{
-      height: 2vw;
-      width: 2vw;
-      
-  }
-  .c3{
-      font-size: larger;
-      color: black;
-      background-color: white;
-      height: 13vw;
-      width: 25vw;
-      margin-left: 50px;
-  }
-  .ct{
-      font-family: Algerian;
-      font-size: x-large;
-      color:Goldenrod;
-        
-  }
-  div.form{
-    border: 2px solid white;
-    margin:5vh 25vw;
-  }
-  #form{
-    margin:5vh auto;
-  }
-  .text-center{
-      color: white;
-      background-color: black;
-  }
+  height: 2vw;
+  width: 2vw;
   
+}
+.c3{
+  font-size: x-large;
+  color: white;
+  background-color: grey;
+  height: 22vw;
+  width: 25vw;
+  margin-left: 50px;
+  position: relative;
+}
+.ct{
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+  color:Goldenrod;
+    
+}
+div.form{
+border: 2px solid white;
+margin:5vh 25vw;
+}
+#form{
+margin:5vh auto;
+}
+.text-center{
+  color: white;
+  background-color: black;
+}
+.map{
+  font-family: 'Poppins', sans-serif;
+  color:goldenrod;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  margin-top: 100px;
+}
 element.style {
-    width: 100%;
-    max-width: 550px !important;
+width: 100%;
+max-width: 550px !important;
+}
+.contact-second-heading{
+  color: gold;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 10px;
+  text-shadow: 2px -2px goldenrod; 
+}
+
+.contact-paragraph{
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+
+.contact-main-div{
+  display: flex;
+  
+}
+.contact-firstDiv{
+  
+  /* gap: 10px; */
+  display: inline-block;
+  width: 320px;
+  border: 2px solid rgb(204, 201, 201);
+  margin-inline: 60px;
+  background-color: rgb(204, 201, 201);
+  /* box-sizing: border-box; */
+  height: 250px;
+  box-shadow: 3px 3px rgb(204, 201, 201);
+}
+.contact-secondDiv{
+  display: inline-block;
+  width: 320px;
+  border: 2px solid rgb(204, 201, 201);
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: rgb(204, 201, 201);
+  box-sizing: border-box;
+  height: 250px;
+  box-shadow: 3px 3px rgb(204, 201, 201);
+  margin-top: auto;
+}
+.contact-div-h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  /* text-align: justify; */
+  /* margin-inline: 10px; */
+}
+.icon-display-contact{
+  display: inline-block;
+  color: gray;
+  /* background-color: gold; */
+  height: 50px;
+  width: 50px;
+  padding:0px;
+  /* margin-left : -10px; */
+  /* margin: 1px; */
+}
+
+.div-first-para{
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+   margin-inline: 30px;
+  /* margin-top: 10px;  */
+  font-size: 16px;
+  color: black;
+}
+.div-second-para{
+  margin-top: 30px;
+  margin-inline: 10px;
+}
+.contact-main-div p{
+  color: black;
 }

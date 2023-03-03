@@ -12,6 +12,8 @@ import img4 from './Home Images/img1.avif';
 import img5 from './Home Images/img2.avif';
 import img6 from './Home Images/img3.avif';
 import Details from './Details-Div/Details';
+import img7 from './Home Manufacturing/images/img1.avif';
+import img8 from './Home Manufacturing/images/img2.avif';
 
 const Home = () => {
   return (

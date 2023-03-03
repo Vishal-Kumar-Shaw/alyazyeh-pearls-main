@@ -6,7 +6,7 @@ const ThirdDiv = (props) => {
     <div className='third-main-div'>
         <h1 className='third-div-h1' id='second-third-div'>{props.title}</h1>
         <div>
-          <p>{props.content}</p>
+        <p>{props.content}</p>
         </div>
        
     </div>

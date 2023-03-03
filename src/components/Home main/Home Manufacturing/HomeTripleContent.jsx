@@ -3,6 +3,7 @@ import TripleDiv from './TripleDiv'
 import img1 from './images/img1.avif';
 import img2 from './images/img2.avif';
 
+
 const HomeTripleContent = () => {
   return (
     <div>

@@ -13,6 +13,7 @@ import Gallery from './components/Gallery main/Gallery';
 import Footer from './components/common main/Footer main/Footer';
 
 import { Routes, Route } from 'react-router-dom';
+import Enquire from './components/common main/Enquire/Enquire';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         <Route exact path="/contact" element={<Contact/>} />
         <Route exact path="/gallery" element={<Gallery/>} />
       </Routes>
-
+      <Enquire/>
       <Footer/>
     </div>
   );

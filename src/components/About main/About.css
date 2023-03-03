@@ -33,3 +33,9 @@
   .about-card-heading{
     margin-top: 0;
   }
+  #Value-Title::after{
+    display: none;
+  }
+  #Value-Title::before{
+    display: none;
+  }

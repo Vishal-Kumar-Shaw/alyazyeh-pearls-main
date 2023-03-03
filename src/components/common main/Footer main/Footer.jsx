@@ -16,15 +16,15 @@ of diamonds.</p>
             </div>
             <div className='footer-child-column footer-child-first-div footer-special'>
               <h2 className='footer-content-heading'>Quick Links</h2>
-              <div><GiCutDiamond className='footer-icons'/><a href='#'>Diamond Types</a></div>
-              <div><GiCutDiamond className='footer-icons'/><a href='#'>Jewellary</a></div>
-              <div><GiCutDiamond className='footer-icons'/><a href='#'>Gallery</a></div>
+              <div><GiCutDiamond className='footer-icons'/><a href='/JewelryS'>Diamond Types</a></div>
+              <div><GiCutDiamond className='footer-icons'/><a href='/JewelryS'>Jewellary</a></div>
+              <div><GiCutDiamond className='footer-icons'/><a href='/JewelryS'>Gallery</a></div>
             </div>
             <div className='footer-child-column footer-child-first-div'>
                 <h2 className='footer-content-heading'>Our Services</h2>
-                <div><GiCutDiamond className='footer-icons'/><a href='#'>Cutting & Polishing</a></div>
-                <div><GiCutDiamond className='footer-icons'/><a href='#'>Designing</a></div>
-                <div><GiCutDiamond className='footer-icons'/><a href='#'>Manufacturing</a></div>
+                <div><GiCutDiamond className='footer-icons'/><a href='/Service'>Cutting & Polishing</a></div>
+                <div><GiCutDiamond className='footer-icons'/><a href='/Service'>Designing</a></div>
+                <div><GiCutDiamond className='footer-icons'/><a href='/Service'>Manufacturing</a></div>
             </div>
             <div className='footer-child-column footer-child-first-div footer-last-div'>
                 <h2 className='footer-content-heading'>Contact Us</h2>
